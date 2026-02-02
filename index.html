@@ -4,70 +4,90 @@
   <meta charset="UTF-8" />
   <title>Arpitha Vinod</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: #faf9f7;
-      color: #2b2b2b;
-      font-family: "Georgia", serif;
-    }
-
-    .container {
-      max-width: 700px;
-      margin: 120px auto;
-      padding: 0 24px;
-    }
-
-    h1 {
-      font-size: 2.6rem;
-      font-weight: normal;
-      margin-bottom: 0.5rem;
-    }
-
-    p {
-      font-size: 1.05rem;
-      line-height: 1.7;
-      margin-bottom: 1.5rem;
-    }
-
-    .soft {
-      color: #7a7a7a;
-      font-style: italic;
-    }
-
-    a {
-      color: #2b2b2b;
-      text-decoration: underline;
-    }
-
-    a:hover {
-      opacity: 0.7;
-    }
-  </style>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
 </head>
 
 <body>
-  <div class="container">
-    <h1>arpitha vinod</h1>
-    <p class="soft">software engineer · writer · quiet builder</p>
-
-    <p>
-      i’m interested in building calm systems — in code, in thought,
-      and in life. this space holds my work, my writing, and the things
-      i’m slowly creating.
-    </p>
-
-    <p>
-      currently writing on
-      <a href="https://substack.com" target="_blank">substack</a>.
-    </p>
-
-    <p>
-      you can reach me at
-      <a href="mailto:youremail@example.com">youremail@example.com</a>.
-    </p>
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <strong>arpitha vinod</strong>
+        <span>soft angel swe • writer • builder</span>
+      </div>
+      <div class="nav-links">
+        <a href="/index.html">home</a>
+        <a href="/resume.html">resume</a>
+        <a href="/writing.html">writing</a>
+        <a href="/shop.html">shop</a>
+        <a href="/moodboards.html">moodboards</a>
+        <a href="/contact.html">contact</a>
+      </div>
+    </div>
   </div>
+
+  <div class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="kicker">pink pilates princess • but make it engineering</p>
+        <h1>hi, i’m arpitha.</h1>
+        <p class="subtitle">software engineer · writer · creator of calm systems</p>
+
+        <p class="prose">
+          i build software with intention and i write about becoming the version of you who gets what she wants —
+          through discipline, journaling, and mindset. this site is my professional home (for recruiters) and my
+          creative studio (for readers).
+        </p>
+
+        <div class="pill-row">
+          <a class="btn primary" href="/resume.html">view my resume</a>
+          <a class="btn" href="/writing.html">read my writing</a>
+          <a class="btn" href="/shop.html">shop my guides</a>
+          <a class="btn" href="https://substack.com" target="_blank" rel="noopener">substack</a>
+        </div>
+
+        <div class="pill-row" style="margin-top:14px;">
+          <span class="pill">now: building my website + writing weekly</span>
+          <span class="pill">themes: calm productivity, glow-up systems, soft power</span>
+          <span class="pill">energy: feminine + focused</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>about me</h2>
+        <p class="small">the professional + the poetic, together.</p>
+        <p class="prose">
+          i’m a software engineer who loves clean design, strong systems, and building tools that feel easy to use.
+          outside of work, i’m obsessed with aesthetics, writing, and creating digital guides that help you feel
+          confident, disciplined, and aligned.
+        </p>
+        <div class="pill-row">
+          <a class="btn" href="/moodboards.html">see my moodboards</a>
+          <a class="btn" href="/contact.html">say hi</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>latest writing</h2>
+        <p class="small">soft angel essays + practical systems.</p>
+        <div class="list" data-posts>
+          <div class="item">
+            <div>
+              <div class="item-title">loading…</div>
+              <div class="item-meta">your posts will appear here</div>
+            </div>
+            <div class="tag">soon</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      built by arpitha • hosted on github pages • pink but serious
+    </div>
+  </div>
+
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>
