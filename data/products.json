@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "name": "the soft discipline reset (pdf)",
+      "blurb": "a 7-day glow-up system for getting back into alignment without spiraling.",
+      "format": "pdf",
+      "price": "$9",
+      "buyLink": "https://YOUR-STRIPE-LINK",
+      "previewLink": "https://YOUR-PREVIEW-LINK"
+    },
+    {
+      "name": "angel journaling prompts (printable pack)",
+      "blurb": "prompts that pull clarity, confidence, and calm power out of you.",
+      "format": "pdf + printable",
+      "price": "$12",
+      "buyLink": "https://YOUR-STRIPE-LINK",
+      "previewLink": "https://YOUR-PREVIEW-LINK"
+    }
+  ]
+}
